@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.parsec" name="PARSEC" version="1.0" provider-name="Ekin">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">PARSEC</summary>
+		<description lang="en">Just an add-on to run PARSEC</description>
+		<license>GNU General Public License, v3</license>
+		<language></language>
+		<forum></forum>
+		<source>https://github.com/ekinkaradag/script.parsec</source>
+		<website>Kodi.tv</website>
+		<email>dev_ekinkaradag@protonmail.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>full_logo.png</fanart>
+		</assets>
+		<news>No news</news>
+	</extension>
+</addon>

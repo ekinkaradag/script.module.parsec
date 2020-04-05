@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <setting id="last_update" value="0.0" visible="false"/>
+    <category label="30001"> <!-- Expert -->
+        <setting id="peer_id" type="text" label="30002"/>
+    </category>
+</settings>

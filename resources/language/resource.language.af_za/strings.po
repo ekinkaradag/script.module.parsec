@@ -1,0 +1,25 @@
+# PARSEC Add-on language file
+# Addon Name: PARSEC
+# Addon id: script.module.parsec
+# Addon Provider: Ekin Karadag
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: dev_ekinkaradag@protonmail.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team: Afrikaans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: af\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "#30002"
+msgid "Peer ID"
+msgstr "Peer ID"
