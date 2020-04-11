@@ -23,8 +23,9 @@ This add-on is to launch Parsec software on a Linux based OSMC (or Kodi) machine
 - If you have already installed Parsec then you can skip to Step 2
 
 <br>
-<br>
 
+
+---
 - If you are trying to install Parsec on a Raspberry Pi
 
 ```bash
@@ -32,7 +33,7 @@ cd ~
 wget https://s3.amazonaws.com/parsec-build/package/parsec-rpi.deb
 sudo dpkg -i parsec-rpi.deb
 ```
-<br>
+---
 
 - If you are trying to install Parsec on an Ubuntu 18.04 LTS or higher on a 
 x86_64 based computer
@@ -42,20 +43,21 @@ cd ~
 wget https://s3.amazonaws.com/parsec-build/package/parsec-linux.deb
 sudo dpkg -i parsec-linux.deb
 ```
-
+---
+<br>
+<br>
 
 ### <u>Step 2 - Method 1: Install The Parsec Add-On</u>
 
 - If you do not have access to device's terminal, please choose Method 2 instead.
 - Open terminal of the device (either via SSH or directly)
 <br>
-<br>
 
 ```bash
 cd ~/addons
 wget -O script.parsec.zip https://github.com/ekinkaradag/script.module.parsec/archive/master.zip
 ```
-<br>
+
 
 - Then open OSMC (or Kodi)
 - Navigate to <code>Add-on</code> -> <code>Install from zip file</code>, Enter it
