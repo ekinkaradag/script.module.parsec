@@ -54,10 +54,11 @@ sudo dpkg -i parsec-linux.deb
 <br>
 
 ```bash
+mkdir ~/addons
 cd ~/addons
 wget -O script.parsec.zip https://github.com/ekinkaradag/script.module.parsec/archive/master.zip
 ```
-
+##### The line ( <code>mkdir ~/addons &>/dev/null &</code> ) is there to create a folder named <code>addons</code>. If there already exists one, it is okay. That line is just there to make sure the operations will take place in the right directory.
 
 - Then open OSMC (or Kodi)
 - Navigate to <code>Add-on</code> -> <code>Install from zip file</code>, Enter it
